@@ -41,9 +41,12 @@ end
 
 book_1 = Book.new("Harry Potter")
 
-book_1.genre = "fantasy"
-book_genre = book_1.genre 
-puts book_genre
+# book_1.genre = "fantasy"
+# book_genre = book_1.genre 
+# puts book_genre
 
-book_1.page_count = 320
-puts book_1.page_count
+# book_1.page_count = 320
+# puts book_1.page_count
+
+book_1.title = "Twilight"
+puts book_1.title
